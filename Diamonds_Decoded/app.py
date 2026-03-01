@@ -741,19 +741,21 @@ elif page == "📊 Market Intelligence":
         # Feature importance from model
         features_display = [f.replace('_', ' ').title()
                             for f in MODEL_FEATURES]
-        fi_rf  = pd.Series(rf_model.feature_importances_,
-                           index=features_display).sort_values()
 
         col_a, col_b = st.columns(2)
         with col_a:
+            fi_rf_df = pd.DataFrame({
+                'Feature'    : features_display,
+                'Importance' : rf_model.feature_importances_
+            }).sort_values('Importance')
             fig = px.bar(
-                fi_rf.reset_index(),
-                x='Random Forest', y='index',
+                fi_rf_df,
+                x='Importance', y='Feature',
                 orientation='h',
                 title="Random Forest Feature Importance",
-                color='Random Forest',
+                color='Importance',
                 color_continuous_scale=['#1A2A4A', '#2C3E7A', '#C9A84C'],
-                labels={'index': 'Feature', 'Random Forest': 'Importance'}
+                labels={'Feature': 'Feature', 'Importance': 'Importance'}
             )
             fig.update_layout(paper_bgcolor='rgba(0,0,0,0)',
                               plot_bgcolor='rgba(0,0,0,0)',
@@ -763,16 +765,18 @@ elif page == "📊 Market Intelligence":
             st.plotly_chart(fig, use_container_width=True)
 
         with col_b:
-            fi_xgb = pd.Series(xgb_model.feature_importances_,
-                               index=features_display).sort_values()
+            fi_xgb_df = pd.DataFrame({
+                'Feature'    : features_display,
+                'Importance' : xgb_model.feature_importances_
+            }).sort_values('Importance')
             fig = px.bar(
-                fi_xgb.reset_index(),
-                x='XGBoost', y='index',
+                fi_xgb_df,
+                x='Importance', y='Feature',
                 orientation='h',
                 title="XGBoost Feature Importance",
-                color='XGBoost',
+                color='Importance',
                 color_continuous_scale=['#0A2A1A', '#1E8C5A', '#A8E6CF'],
-                labels={'index': 'Feature', 'XGBoost': 'Importance'}
+                labels={'Feature': 'Feature', 'Importance': 'Importance'}
             )
             fig.update_layout(paper_bgcolor='rgba(0,0,0,0)',
                               plot_bgcolor='rgba(0,0,0,0)',
