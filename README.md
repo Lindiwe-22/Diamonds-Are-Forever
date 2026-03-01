@@ -64,7 +64,7 @@ This study applies machine learning to answer three questions:
 | Price Predictor | Customer Profiler |
 |---|---|
 
-|(#<img width="1366" height="728" alt="Price Predictor" src="https://github.com/user-attachments/assets/903f0afe-8d1b-48fd-ba64-1ad3b81aa4be" />)|
+(<img width="1366" height="728" alt="Price Predictor" src="https://github.com/user-attachments/assets/903f0afe-8d1b-48fd-ba64-1ad3b81aa4be" />)
 
 |(#<img width="1366" height="728" alt="Customer Profiler" src="https://github.com/user-attachments/assets/f7729321-8954-44f1-a469-8b431d80650c" />)|
 
