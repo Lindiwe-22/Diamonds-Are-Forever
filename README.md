@@ -63,13 +63,13 @@ This study applies machine learning to answer three questions:
 
 | Price Predictor | Customer Profiler |
 |---|---|
-| ![Price Predictor](#<img width="1366" height="728" alt="Price Predictor" src="https://github.com/user-attachments/assets/903f0afe-8d1b-48fd-ba64-1ad3b81aa4be" />) 
-| ![Customer Profiler](#<img width="1366" height="728" alt="Customer Profiler" src="https://github.com/user-attachments/assets/f7729321-8954-44f1-a469-8b431d80650c" />) |
+|![Price Predictor](#<img width="1366" height="728" alt="Price Predictor" src="https://github.com/user-attachments/assets/903f0afe-8d1b-48fd-ba64-1ad3b81aa4be" />) |
+|![Customer Profiler](#<img width="1366" height="728" alt="Customer Profiler" src="https://github.com/user-attachments/assets/f7729321-8954-44f1-a469-8b431d80650c" />) |
 
 | Market Intelligence | SA & Global Context |
 |---|---|
-| ![Market Intelligence](#<img width="1366" height="728" alt="Market Intelligence" src="https://github.com/user-attachments/assets/68b52f23-a801-4fb2-bb4c-be5eb28b3a80" />) 
-| ![SA Context](#<img width="1366" height="728" alt="SA   Global Context" src="https://github.com/user-attachments/assets/810a4f19-01cb-4b1d-8355-4d3b4b1fdac5" />) |
+|![Market Intelligence](#<img width="1366" height="728" alt="Market Intelligence" src="https://github.com/user-attachments/assets/68b52f23-a801-4fb2-bb4c-be5eb28b3a80" />) |
+|![SA Context](#<img width="1366" height="728" alt="SA   Global Context" src="https://github.com/user-attachments/assets/810a4f19-01cb-4b1d-8355-4d3b4b1fdac5" />) |
 
 ---
 
