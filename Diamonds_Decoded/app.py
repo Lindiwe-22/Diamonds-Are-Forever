@@ -35,12 +35,12 @@ st.set_page_config(
 st.markdown("""
 <style>
     /* Main background */
-    .main { background-color: #0F1117; }
+    .main { background-color: #FAF3E0; }
 
     /* Metric cards */
     [data-testid="metric-container"] {
-        background-color: #1E2130;
-        border: 1px solid #2C3E7A;
+        background-color: #EDE4C8;
+        border: 1px solid #C9A84C;
         border-radius: 8px;
         padding: 12px;
     }
@@ -51,9 +51,9 @@ st.markdown("""
     }
 
     /* Headers */
-    h1 { color: #E8D5A3; }
-    h2 { color: #C9A84C; }
-    h3 { color: #FFFFFF; }
+    h1 { color: #5C4A1E; }
+    h2 { color: #8B6914; }
+    h3 { color: #2C2C2C; }
 
     /* Info boxes */
     .stAlert { border-radius: 8px; }
@@ -76,8 +76,8 @@ st.markdown("""
         font-weight: bold;
     }
     .archetype-card {
-        background-color: #1E2130;
-        border-left: 4px solid #C9A84C;
+        background-color: #EDE4C8;
+        border-left: 4px solid #57C5E0;
         border-radius: 6px;
         padding: 16px;
         margin: 8px 0;
