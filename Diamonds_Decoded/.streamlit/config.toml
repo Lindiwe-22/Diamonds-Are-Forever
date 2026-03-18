@@ -1,0 +1,21 @@
+# ─────────────────────────────────────────────────────────────────
+# Streamlit Theme Configuration — Diamonds Decoded
+# ─────────────────────────────────────────────────────────────────
+
+[theme]
+# Sidebar and main background
+backgroundColor = "#fdf6ec"
+secondaryBackgroundColor = "#f5e6d0"
+
+# Text colours — dark enough to read on light background
+textColor = "#1a1a2e"
+primaryColor = "#E8474A"
+
+# Font
+font = "sans serif"
+```
+
+This gives you:
+- **Sidebar:** warm sandy/cream background matching the diamonds theme
+- **Text:** dark navy — clearly readable
+- **Accent colour:** your existing red for buttons and sliders
