@@ -3,7 +3,7 @@
 # ─────────────────────────────────────────────────────────────────
 
 [theme]
-backgroundColor = "#fdf6ec"
+backgroundColor = "#fdf6ec !important"
 secondaryBackgroundColor = "#f5e6d0"
 textColor = "#1a1a2e"
 primaryColor = "#E8474A"
